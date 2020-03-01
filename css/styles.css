@@ -56,6 +56,15 @@ h1 {
   text-decoration: dashed;
 }
 
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
 h1 strong {
   color: #026fff;
 }
@@ -116,6 +125,7 @@ ul {
   align-items: center;
 }
 
+
 .hero {
   height: 300px;
   background-color: #1b2127;
@@ -124,3 +134,165 @@ ul {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.hero-image {
+  object-fit: cover;
+}
+
+.portfolio {
+  background: #fafafa;
+  padding: 20px;
+}
+
+.project {
+  border: 10px solid red;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-course,
+.project-date,
+.project-ur {
+  margin: 10px 0;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
+.project strong {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.project-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-details {
+  width: 50%;
+}
+
+.project-imageContainer {
+  max-width: 100%;
+}
+
+
+.event {
+  margin: 1%;
+  width: 48%;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-list-title {
+  margin-left: 20px;
+}
+
+.event img{
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-description {
+  text-align: left;
+}
+
+.contact {
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer {
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
+
+.social-link.twitter {
+  background-image: url('https://cdn4.iconfinder.com/data/icons/social-icons-6/40/twitter-512.png');
+}
+
+.social-link.instagram {
+  background-image: url('http://www.festiprev.com/wp-content/uploads/2018/02/Instagram-Logo.png');
+}
+
+.social-link.github {
+  background-image: url('https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-512.png');
+}
+
+.social-link.linkedin {
+  background-image: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_gray-256.png');
+}
+
+
+.form-email input {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+  background-image: url('https://image.flaticon.com/icons/png/512/36/36175.png');
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-email button {
+  display: block;
+  margin-top: 10px;
+  background: #1b2127;
+  color: white;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.form-email h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+
