@@ -140,7 +140,7 @@ ul {
 
 .hero-image {
   object-fit: cover;
-  border: 1px solid green;
+  border-radius: 2px;
 }
 
 .portfolio {
