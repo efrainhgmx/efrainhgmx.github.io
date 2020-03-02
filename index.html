@@ -45,13 +45,14 @@
             <h2>Portafolio (Proyectos destacados)</h2>
             <article class="project">
                 <div class="proyect-details">
-                    <h3 class="project-tittle">Proyecto 1</h3>
+                    <h3 class="project-title">Proyecto 1</h3>
                     <h4 class="project-course">Proyecto 2</h4>
-                    <p class="project-date"><small><strong>Fecha:</strong>01/03/2020</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong>platzi.cpm</small></p>
-                    <p class="´project-description">Aquí va la descripción de un proyecto, este es un 
+                    <p class="project-date"><strong>Fecha:</strong> 01/03/2020</p>
+                    <p class="project-url"><strong>Puedes verlo en: </strong> platzi.com</p>
+                    <p class="project-description">Aquí va la descripción de un proyecto, este es un 
                         parrafo de prueba para que el Efra del futuró agrege una descripción 
-                        y no se le olvide</p>
+                        y no se le olvide. hola esto es más texto jajajaja
+                    solo para ver que pasa</p>
                 </div>
                 <figure class="project-imageContainer">
                     <img src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3677729/2340/1560/m1/fpnw/wm0/web-design-and-development-project-proposal-template-design-.jpg?1512310469&s=93a39dcf3f87c1f9579c3681ab4be74c"  width="500" alt="Imagen de proyecto"/>
@@ -113,25 +114,60 @@
             <button>Enviar</button>
         </form>
         <div class="social">
-            <a href="https://twitter.com" class="social-link twitter"></a>
-            <a href="https://instagram.com" class="social-link instagram"></a>
-            <a href="https://github.com" class="social-link github"></a>
-            <a href="https://linkedin.com" class="social-link linkedin"></a>
+            <a href="https://twitter.com/@EfrainHGLive" class="social-link twitter"></a>
+            <a href="https://instagram.com/efrainhgmx" class="social-link instagram"></a>
+            <a href="https://github.com/efrainhgmx" class="social-link github"></a>
+            <a href="https://linkedin.com/in/efrainhgmx" class="social-link linkedin"></a>
         </div>
     </div>
 </section>
 <footer class="footer">
     <div class="container">
         <div>
-            <p>Curso para el desarrollo web online de platzi</p>
+            <p>Efraín Hernández | Siempre sigue tus sueños</p>
             <div>
                 <p>
-                    Designed with love for me ❤
+                    Designed with love for me ❤ 2020
                 </p>
             </div>
         </div>
     </div>
 </footer>
+<script>
+    const ipad = window.matchMedia('screen and (max-width: 767px)');
+    const menu = document.querySelector('.menu');
+    console.log(menu);
+    
+    const burgerButton = document.querySelector('#burger-menu');
+    console.log(burgerButton);
 
+    ipad.addListener(validation);
+
+    function validation(event) 
+    {
+        if (event.matches)
+        {
+            burgerButton.addEventListener('click', hideShow);
+        }
+        else
+        {
+            burgerButton.removeEventListener('click', hideShow);
+        }
+    }
+
+    validation(ipad);
+
+    function hideShow() 
+    {
+        if (menu.classList.contains('is-active'))
+        {
+            menu.classList.remove('is-active');
+        }
+        else
+        {
+            menu.classList.add('is-active');
+        }
+    }
+</script>
 </body>
 </html>

@@ -149,25 +149,25 @@ ul {
 }
 
 .project {
-  border: 10px solid red;
+  border: 1px solid gray;
   border-radius: 10px;
   margin-bottom: 15px;
   padding: 20px;
   background: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .project-course,
 .project-date,
-.project-ur {
-  margin: 10px 0;
+.project-url {
+  margin: 10px, 0;
 }
 
 .project-description {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .project strong {
@@ -227,6 +227,7 @@ ul {
 }
 
 .event-description {
+  font-size: 18px;
   text-align: left;
 }
 
@@ -258,15 +259,15 @@ ul {
 }
 
 .social-link.twitter {
-  background-image: url('https://cdn4.iconfinder.com/data/icons/social-icons-6/40/twitter-512.png');
+  background-image: url('https://i.imgur.com/xyFL3GC.png');
 }
 
 .social-link.instagram {
-  background-image: url('http://www.festiprev.com/wp-content/uploads/2018/02/Instagram-Logo.png');
+  background-image: url('https://i.imgur.com/SG3G21f.png');
 }
 
 .social-link.github {
-  background-image: url('https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-512.png');
+  background-image: url('https://i.imgur.com/VUE9cMA.png');
 }
 
 .social-link.linkedin {
@@ -389,6 +390,7 @@ img {
     top: 0;
     left: -100vw;
     width: 100vw;
+    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -489,6 +491,7 @@ img {
   width: 40px;
   height: 40px;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 320px) {
