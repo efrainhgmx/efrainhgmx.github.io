@@ -1,0 +1,58 @@
+.col-1 {
+    border: 1px solid red;
+    width: 8.3333333333333333333333333333333%;
+  }
+  
+  .col-2 {
+    padding: 15px;
+    width: 16.66666666666%;
+  }
+  
+  .col-3 {
+    padding: 15px;
+    width: 24.999999‬99%;
+  }
+  
+  .col-4 {
+    padding: 10px;
+    width: 33.333332%;
+  }
+  
+  .col-5 {
+    padding: 15px;
+    width:41.666665%;
+  }
+  
+  .col-6 {
+    width: 49.99998%;
+  }
+  
+  .col-7 {
+    padding: 10px;
+    width: 58.333331%;
+  }
+  
+  .col-8 {
+    width: 66.6666666664%;
+  }
+  
+  .col-9 {
+    width: 74.99997%;
+  }
+  
+  .col-10 {
+    width: 83.33333%;
+  }
+  
+  .col-11 {
+    width: 91.666663%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+
+  .project-1 {
+      display: flex;
+      justify-content: center;
+  }
