@@ -49,7 +49,7 @@ h6 {
 
 h1 {
   padding: 15px;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 1.5em;
   letter-spacing: -.2px;
   color: white;
@@ -64,7 +64,7 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 h1 strong {
@@ -192,12 +192,39 @@ ul {
   max-width: 100%;
 }
 
+.title-proyects-portfolio {
+  color: black;
+}
+
+.project-portfolio-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.project-portfolio-container img {
+  border-radius: 10px;
+  margin-top: 20px;
+  height: inherit;
+}
+
+.project-portfolio-description {
+  padding: 0 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.project-portfolio-description p {
+  font-size: 0.9em;
+}
 
 .event {
   margin: 1%;
   width: 48%;
   flex-shrink: 0;
-  border-radius: 10px;
   overflow: hidden;
   background: #f4fbff;
 }
@@ -296,6 +323,30 @@ ul {
   margin-top: 10px;
 }
 
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.buttons-projects-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.buttons-projects-container button {
+  padding: 2px;
+  width: 100px;
+  height: 23px;
+  margin: 0 10px; 
+  background-color: rgb(99, 98, 98);
+  box-shadow:  rgb(173, 172, 172);
+}
+
+.buttons-projects-container button:hover {
+  background-color:  rgb(173, 172, 172);
+}
+
 .form-email h3 {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -355,7 +406,13 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
+
+  .project-portfolio-container {
+    display: inline-grid;
+    justify-items: center;
+  }
+
   h2 {
     font-size: 1.2em;
     margin: .5em 0; 
