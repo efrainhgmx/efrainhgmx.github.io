@@ -13,9 +13,10 @@ Puedes visitar mi portafolio completo aquí en Git o ver mejor mi trabajo de una
 
 Mi meta es nunca para de aprender para poder aportar mi máximo potencial en la industria Tech.
 
-[![CODE](https://cdn.wccftech.com/wp-content/uploads/2016/10/Front-End-Development-Bundle.jpg "CODE")](http://cdn.wccftech.com/wp-content/uploads/2016/10/Front-End-Development-Bundle.jpg "CODE")
+[![stack](https://i.imgur.com/uUShBmc.jpg "stack")](https://i.imgur.com/uUShBmc.jpg "stack")
 
 ### Este y los demás proyectos son hechos con corazón 💙
 Con el fin de mejorar mis habilidades, haré proyectos tanto como me sea posible compartirlos y espero poder inspirarte.
 
 **GRACIAS PLATZI**💚 por ayudarme en este proceso. 
+

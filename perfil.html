@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="https://i.imgur.com/5EnEflF.png">
+    <title>Perfil</title>
+</head>
+<body>
+    <i class="icon-menu burger-button" id="burger-menu"></i> 
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <a href="index.html"><img src="https://i.imgur.com/g2xTNOF.png" height="50" alt="logo de efrainhgmx"></a>
+            </figure>
+        </div>
+        <nav class="menu">
+            <ol>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a class="link" href="portafolio.html">Portafolio</a>
+                </li>
+                <li>
+                    <a class="link" href="mailto:efrainhg2050@gmail.com">Contacto</a>
+                </li>
+                <li>
+                    <a class="link" href="#contacto">Trabajemos juntos</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="profile-title">Más sobre mi</h1>
+        <section class="main-profileContainer">
+            <div class="profile-imageContainer col-3">
+                <img src="img/profile.png" alt="Imagen de perfil">
+            </div>
+            <div class="profile-descriptionContainer col-5">
+                <h2>¿Quién soy?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vitae est quas, corporis dignissimos tenetur nobis quaerat iure eos in perferendis officiis dolores? Ducimus, nisi nostrum rem mollitia neque atque.
+                </p>
+            </div>
+        </section>
+
+        <section class="companies-sectionContainer">
+            <div class="companies-imageContainer">
+                <img src="img/companies.png" alt="Compañias de colaboración y certificación">
+            </div>
+        </section>
+    </main>
+
+    <section class="contact" id="contacto">
+        <div class="container">
+            <form action="/suscripción/" class="form-email">
+                <h3>¿Colaboramos juntos?</h3>
+                <input type="text" placeholder="Déjame tu email" id="email"/>
+                <button><a href="mailto:efrainhg2050@gmail.com">Enviar</a></button>
+            </form>
+            <div class="social">
+                <a href="https://twitter.com/@EfrainHGLive" class="social-link twitter"></a>
+                <a href="https://instagram.com/efrainhgmx" class="social-link instagram"></a>
+                <a href="https://github.com/efrainhgmx" class="social-link github"></a>
+                <a href="https://linkedin.com/in/efrainhgmx" class="social-link linkedin"></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <p>Efraín Hernández  |  Siempre mejorando</p>
+                <div>
+                    <p>
+                        Designed with love ❤ 2020
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const ipad = window.matchMedia('screen and (max-width: 767px)');
+        const menu = document.querySelector('.menu');
+        console.log(menu);
+        
+        const burgerButton = document.querySelector('#burger-menu');
+        console.log(burgerButton);
+    
+        ipad.addListener(validation);
+    
+        function validation(event) 
+        {
+            if (event.matches)
+            {
+                burgerButton.addEventListener('click', hideShow);
+            }
+            else
+            {
+                burgerButton.removeEventListener('click', hideShow);
+            }
+        }
+    
+        validation(ipad);
+    
+        function hideShow() 
+        {
+            if (menu.classList.contains('is-active'))
+            {
+                menu.classList.remove('is-active');
+            }
+            else
+            {
+                menu.classList.add('is-active');
+            }
+        }
+    </script>
+    
+</body>
+</html>

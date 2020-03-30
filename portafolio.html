@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="https://i.imgur.com/5EnEflF.png">
+    <title>Portafolio</title>
+</head>
+<body>
+    <i class="icon-menu burger-button" id="burger-menu"></i> 
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <a href="index.html"><img src="https://i.imgur.com/g2xTNOF.png" height="50" alt="logo de efrainhgmx"></a>
+            </figure>
+        </div>
+        <nav class="menu">
+            <ol>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a class="link" href="mailto:efrainhg2050@gmail.com">Contacto</a>
+                </li>
+                <li>
+                    <a class="link" href="#contacto">Trabajemos juntos</a>
+                </li>
+                <li>
+                    <a class="link" href="perfil.html">Más sobre mi</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="title-proyects-portfolio">Proyectos</h1>
+        <section>
+        <div class="project-portfolio-container">
+            <div class="project-portfolio-imageContainer col-4">
+                <img src="https://i.imgur.com/05RGINI.png" alt="Mapa del proyecto Covid-19">
+            </div>
+            <div class="project-portfolio-description col-7">
+                <h2>Mapa interactivo de Covid-19</h2>
+                <p>Este es un proyecto con fines didacticos que tiene como fin mostrar como añadir una API de Google Maps y poder añadir datos de manera visual en tiempo real.
+                    El mapa actualiza los datos cada 24 hrs.  Así que es posible que estos datos no coicidan siempre en tiempo. El proyecto esta diseñado con el principio "Desktop First"
+                    por lo que tiene como prioridad verse mejor en pantallas de escritorio que dispotivios moviles. Este proyecto funciona en cualquier navegador.    
+                </p>
+                <div class="buttons-projects-container">
+                <button><a class="button-project" href="https://efrainhgmx.github.io/Map-covid19/">Ver proyecto</a></button>
+                <button><a class="button-project" href="https://github.com/efrainhgmx/Map-covid19">Ver código</a></button>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="message-container">
+        <div class="message-imageContainer">
+            <img src="img/phrase.png" alt="Todo el mundo debería aprender a programar, porque te enseña a pensar. - Steve Jobs">
+        </div>
+    </section>
+
+
+    <section class="contact" id="contacto">
+        <div class="container">
+            <form action="/suscripción/" class="form-email">
+                <h3>¿Colaboramos juntos?</h3>
+                <input type="text" placeholder="Déjame tu email" id="email"/>
+                <button><a href="mailto:efrainhg2050@gmail.com">Enviar</a></button>
+            </form>
+            <div class="social">
+                <a href="https://twitter.com/@EfrainHGLive" class="social-link twitter"></a>
+                <a href="https://instagram.com/efrainhgmx" class="social-link instagram"></a>
+                <a href="https://github.com/efrainhgmx" class="social-link github"></a>
+                <a href="https://linkedin.com/in/efrainhgmx" class="social-link linkedin"></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <p>Efraín Hernández  |  Siempre mejorando</p>
+                <div>
+                    <p>
+                        Designed with love ❤ 2020
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const ipad = window.matchMedia('screen and (max-width: 767px)');
+        const menu = document.querySelector('.menu');
+        console.log(menu);
+        
+        const burgerButton = document.querySelector('#burger-menu');
+        console.log(burgerButton);
+    
+        ipad.addListener(validation);
+    
+        function validation(event) 
+        {
+            if (event.matches)
+            {
+                burgerButton.addEventListener('click', hideShow);
+            }
+            else
+            {
+                burgerButton.removeEventListener('click', hideShow);
+            }
+        }
+    
+        validation(ipad);
+    
+        function hideShow() 
+        {
+            if (menu.classList.contains('is-active'))
+            {
+                menu.classList.remove('is-active');
+            }
+            else
+            {
+                menu.classList.add('is-active');
+            }
+        }
+    </script>
+    
+</body>
+</html>
