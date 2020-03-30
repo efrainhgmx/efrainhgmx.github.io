@@ -192,7 +192,8 @@ ul {
   max-width: 100%;
 }
 
-.title-proyects-portfolio {
+.title-proyects-portfolio,
+.profile-title {
   color: black;
 }
 
@@ -212,7 +213,8 @@ ul {
   width: 100%;
 }
 
-.project-portfolio-imageContainer {
+.project-portfolio-imageContainer,
+.profile.imageContaine {
   margin-bottom: 20px;
   margin-right: 40px;
 }
@@ -345,7 +347,7 @@ button a {
 .buttons-projects-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 .buttons-projects-container button {
@@ -383,6 +385,41 @@ img {
   top: 5px;
   color: white;
 }
+
+
+/* PROFILE SECTION ABOUT ME */
+ .main-profileContainer {
+   display: flex;
+   padding: 45px;
+   justify-content: center;
+   background-color: #e6e9ed;
+ }
+
+ .profile-imageContainer img {
+   border-radius: 10px;
+   width: 100%;
+   margin-right: 20px;
+ }
+
+ .profile-descriptionContainer {
+   padding: 25px;
+ }
+
+ .companies-sectionContainer {
+   display: flex;
+   justify-content: center;
+ }
+
+ .companies-imageContainer {
+   padding: 40px;
+ }
+
+ .companies-imageContainer img {
+   width: 100%;
+ }
+ 
+
+ 
 
 @media screen and (max-width: 1023px) {
   .event-list-title {
@@ -564,6 +601,14 @@ img {
     text-align: center;
     border: 1px solid transparent;
   }
+
+  .main-profileContainer {
+    display: inline-grid;
+  }
+  
+  .profile-descriptionContainer {
+    width: inherit;
+  }
 }
 
 .social-link {
@@ -572,6 +617,7 @@ img {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 
 
 @media screen and (max-width: 320px) {
