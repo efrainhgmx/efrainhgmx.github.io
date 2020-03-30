@@ -19,4 +19,3 @@ Mi meta es nunca para de aprender para poder aportar mi máximo potencial en la 
 Con el fin de mejorar mis habilidades, haré proyectos tanto como me sea posible compartirlos y espero poder inspirarte.
 
 **GRACIAS PLATZI**💚 por ayudarme en este proceso. 
-
