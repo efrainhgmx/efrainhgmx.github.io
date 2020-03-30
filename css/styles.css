@@ -602,6 +602,10 @@ img {
     border: 1px solid transparent;
   }
 
+  .project-portfolio-imageContainer {
+    width: 320px;
+  }
+
   .main-profileContainer {
     display: inline-grid;
   }
@@ -628,6 +632,10 @@ img {
 
   .hero {
     padding: 2em 1em;
+  }
+
+  .project-portfolio-imageContainer {
+    width: 280px;
   }
 
 }
