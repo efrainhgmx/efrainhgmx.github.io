@@ -417,6 +417,10 @@ img {
  .companies-imageContainer img {
    width: 100%;
  }
+
+ .profile-description {
+   text-align: justify;
+ }
  
 
  
