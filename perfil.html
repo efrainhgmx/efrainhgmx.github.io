@@ -47,7 +47,7 @@
                     🚀Soy <b>Ingeniero egresado de la UNAM</b> tengo 24 años y me considero un apasionado de la tecnología y un optimista profesional. Mi <b>por qué</b> es buscar desarrollar al maximo  mis habilidades para poder aportar tanto como me sea posible e inspirar a más personas
                     a que desarrollen tecnología para el bien de otros. Soy consciente de que podemos cambiar y mejorar el mundo en base al desarrollo de tecnología. 🌎
                 </p>
-                <p class="profile-description">Y el <b>¿comó?</b> Leo libros, escríbo articulos, asisto a eventos y desarrollo proyectos que puedan ayudar e inspirar a crear cosas. Cuento con grandes maestros y mentores que me guían en el proceso. Como un sueño loco que tengo, me encantaría en un futuro poder dar conferencias y dar asesorias de esta marivillosa industria. 
+                <p class="profile-description">Y el <b>¿comó?</b> Leo libros, escríbo articulos, asisto a eventos, tomo cursos y desarrollo proyectos que puedan ayudar e inspirar a crear cosas. Cuento con grandes maestros y mentores que me guían en el proceso. Como un sueño loco que tengo, me encantaría en un futuro poder dar conferencias y dar asesorias de esta marivillosa industria. 
                 </p>
                 <p>Mientras tanto, sigo en proceso de ser un <b>Developer Expert</b>. Y agradezco a <b>Platzi</b> y su comunidad por ayudarme en este proceso de ser un profesional. 👨‍💻</p>
                 <p class="profile-description">
@@ -91,42 +91,8 @@
             </div>
         </div>
     </footer>
-    <script>
-        const ipad = window.matchMedia('screen and (max-width: 767px)');
-        const menu = document.querySelector('.menu');
-        console.log(menu);
-        
-        const burgerButton = document.querySelector('#burger-menu');
-        console.log(burgerButton);
     
-        ipad.addListener(validation);
-    
-        function validation(event) 
-        {
-            if (event.matches)
-            {
-                burgerButton.addEventListener('click', hideShow);
-            }
-            else
-            {
-                burgerButton.removeEventListener('click', hideShow);
-            }
-        }
-    
-        validation(ipad);
-    
-        function hideShow() 
-        {
-            if (menu.classList.contains('is-active'))
-            {
-                menu.classList.remove('is-active');
-            }
-            else
-            {
-                menu.classList.add('is-active');
-            }
-        }
-    </script>
+    <script src="menu.js"></script>
     
 </body>
 </html>

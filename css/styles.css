@@ -167,7 +167,7 @@ ul {
 }
 
 .project-description {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .project strong {
@@ -211,6 +211,7 @@ ul {
   border-radius: 10px;
   margin-top: 20px;
   width: 100%;
+  height: 80%;
 }
 
 .project-portfolio-imageContainer,
@@ -227,7 +228,7 @@ ul {
 }
 
 .project-portfolio-description p {
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 
 .message-imageContainer {
@@ -337,6 +338,13 @@ ul {
   color: white;
   padding: 10px 0;
   margin-top: 10px;
+  width: 80px;
+  border-radius: 5px;
+}
+
+.form-email button:hover {
+  background: rgb(177, 175, 175);
+  border: gray;
 }
 
 button a {
@@ -353,10 +361,10 @@ button a {
 .buttons-projects-container button {
   padding: 2px;
   width: 100px;
-  height: 23px;
+  height: 35px;
+  border-radius: 5px;
   margin: 0 10px; 
   background-color: rgb(99, 98, 98);
-  box-shadow:  rgb(173, 172, 172);
 }
 
 .buttons-projects-container button:hover {
@@ -381,7 +389,7 @@ img {
   text-align: center;
   position: fixed;
   z-index: 4;
-  left: 5px;
+  right: 5px;
   top: 5px;
   color: white;
 }
@@ -453,7 +461,9 @@ img {
     top: 0;
     bottom: 0;
     width: 100%;
+    height: 100%;
   }
+
 
   h1 {
     font-size: 2em;
@@ -508,17 +518,17 @@ img {
     background: rgba(5, 111, 255, .9);
     z-index: 3;
     top: 0;
-    left: -100vw;
+    right: -100vw;
     width: 100vw;
     bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .3s;
+    transition: .4s;
   }
 
   .menu.is-active {
-    left: 0;
+    right: 0;
   }
 
   .project {
@@ -575,6 +585,7 @@ img {
     font-size: 1.5em;
   }
 
+
   .project-details {
     width: auto;
     font-size: 14px;
@@ -625,7 +636,6 @@ img {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
 
 
 @media screen and (max-width: 320px) {

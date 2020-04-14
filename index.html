@@ -78,7 +78,7 @@
                 <div class="event-detail">
                     <h3 class="event-title">Producto Digital</h3>
                     <p class="event-description">Este es proyecto de una tienda online, donde puedes agregar un sistma de pago (Paypal) y un sistema de navegación atractivo. Utilizando HTML y CSS</p>
-                    <a href="https://efrainhgmx.github.io/Digital-product/">Link del proyecto</a>
+                    <a href="https://efrainhgmx.github.io/Digital-product/">Ver proyecto</a>
                 </div>
             </article>
             <article class="event">
@@ -86,9 +86,9 @@
                     <img class="event-image" src="img/google.jpg" alt="Imagwn de este proyecto">
                 </figure>
                 <div class="event-detail">
-                    <h3 class="event-title">Propuesta de un navegador</h3>
+                    <h3 class="event-title">Clon de Google</h3>
                     <p class="event-description">Este es el maquetado de un navegador inspidaro en Google donde podras encontrar tambien el link a un clon de Google.com</p>
-                    <a href="https://efrainhgmx.github.io/My-Finder/">Link del proyecto</a>
+                    <a href="https://efrainhgmx.github.io/Google-Clone/">Ver proyecto</a>
                 </div>
             </article>
             <article class="event">
@@ -98,7 +98,7 @@
                 <div class="event-detail">
                     <h3 class="event-title">Blog</h3>
                     <p class="event-description">Actualmente cuento con un blog sobre tecnología <b>Electronictops</b> donde comparto información relevante de la industria Tech y comparto mucho de lo que aprendo</p>
-                    <a href="https://www.electronictops.com/">Link del proyecto</a>
+                    <a href="https://www.electronictops.com/">Ver proyecto</a>
                 </div>
             </article>
             <article class="event">
@@ -141,41 +141,8 @@
         </div>
     </div>
 </footer>
-<script>
-    const ipad = window.matchMedia('screen and (max-width: 767px)');
-    const menu = document.querySelector('.menu');
-    console.log(menu);
-    
-    const burgerButton = document.querySelector('#burger-menu');
-    console.log(burgerButton);
 
-    ipad.addListener(validation);
+<script src="menu.js"></script>
 
-    function validation(event) 
-    {
-        if (event.matches)
-        {
-            burgerButton.addEventListener('click', hideShow);
-        }
-        else
-        {
-            burgerButton.removeEventListener('click', hideShow);
-        }
-    }
-
-    validation(ipad);
-
-    function hideShow() 
-    {
-        if (menu.classList.contains('is-active'))
-        {
-            menu.classList.remove('is-active');
-        }
-        else
-        {
-            menu.classList.add('is-active');
-        }
-    }
-</script>
 </body>
 </html>
