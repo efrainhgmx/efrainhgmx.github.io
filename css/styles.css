@@ -649,6 +649,10 @@ img {
   .project-portfolio-imageContainer {
     width: 250px;
   }
+
+  .button-project {
+    font-size: 10px;
+  }
 }
 
 
