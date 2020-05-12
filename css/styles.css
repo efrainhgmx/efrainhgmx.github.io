@@ -71,6 +71,8 @@ h1 strong {
   color: #026fff;
 }
 
+/*INDEX */
+
 .header {
   background-color: #1b2127;
   color: white;
@@ -191,7 +193,7 @@ ul {
 .project-imageContainer  img{
   max-width: 100%;
 }
-
+/* PORTAFOLIO SECTION */
 .title-proyects-portfolio,
 .profile-title {
   color: black;
@@ -235,8 +237,8 @@ ul {
   display: flex;
   justify-content: center;
   margin: 75px;
-}
-
+} 
+/* Termina aqui portafolio*/
 .event {
   margin: 1%;
   width: 48%;

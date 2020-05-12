@@ -1,0 +1,44 @@
+.title-proyects-portfolio,
+.profile-title {
+  color: black;
+}
+
+.project-portfolio-container {
+  max-width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+.project-portfolio-container img {
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: 80%;
+}
+
+.project-portfolio-imageContainer,
+.profile.imageContaine {
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.project-portfolio-description {
+  padding: 0 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.project-portfolio-description p {
+  font-size: 1.1em;
+}
+
+.message-imageContainer {
+  display: flex;
+  justify-content: center;
+  margin: 75px;
+}
