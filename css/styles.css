@@ -42,8 +42,34 @@ p {
     color: var(--font-color);
 }
 
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
 .wrapper {
     max-width: 1350px;
     margin: 0 auto;
     padding: 0 25px;
 }
+
+/* Header Content */
+.header-content {
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 42px;
+}
+
+.menu {
+    width: 28px;
+}
+
+/* Main Content */
