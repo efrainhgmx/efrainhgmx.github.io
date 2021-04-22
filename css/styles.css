@@ -2,18 +2,31 @@ html {
     font-size: 62.5%;
 }
 
+:root {
+    --bg-color: #0C1633;
+    --font-color: #BECDE3;
+    --blue: #0791E6;
+}
+
 body {
     margin: 0;
+    background-color: var(--bg-color);
     font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    color: var(--blue);
 }
 
-h2.name,
-h3.heading {
+h2.heading {
+    color: #8892B0;
     font-size: 4rem;
+}
+
+h2,
+h3 {
+    color: white;
 }
 
 h2 {
@@ -24,7 +37,13 @@ h3 {
     font-size: 2.4rem;
 }
 
+p {
+    font-size: 1.8rem;
+    color: var(--font-color);
+}
+
 .wrapper {
     max-width: 1350px;
     margin: 0 auto;
+    padding: 0 25px;
 }
