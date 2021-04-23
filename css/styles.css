@@ -107,6 +107,16 @@ strong {
 }
 
 /* About me Section */
+.section-title::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -13px;
+    right: -135px;
+    height: 1px;
+    width: 25vw;
+    background-color: var(--blue);
+}
 .stack-title {
     color: white;
 }
@@ -130,4 +140,11 @@ li::before {
 .profile-picture {
     width: 160px;
     margin: 20px auto;
+}
+
+/* Projects section */
+.project-video--container iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
 }
