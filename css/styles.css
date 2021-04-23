@@ -184,6 +184,18 @@ footer {
     text-align: center;
 }
 
+.social-media svg {
+    color: var(--font-color);
+    width: 18px;
+    margin-inline: 15px;
+}
+
+.social-media svg:hover,
+.social-media svg:focus {
+    color: var(--blue);
+    cursor: pointer;
+}
+
 footer p {
     font-size: 1.2rem;
 }
