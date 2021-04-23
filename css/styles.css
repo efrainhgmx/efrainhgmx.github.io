@@ -158,8 +158,21 @@ li::before {
 }
 .button-container {
     text-align: center;
+    margin-top: 40px;
 }
 
 .projects-button {
     padding: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.contact-title {
+    display: inline-block;
+    border-bottom: 1px solid var(--blue);
+    padding-bottom: 5px;
 }
