@@ -147,8 +147,19 @@ li::before {
     margin-top: 120px;
 }
 
+.project-content {
+    margin-bottom: 40px;
+}
+
 .project-video--container iframe {
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
+}
+.button-container {
+    text-align: center;
+}
+
+.projects-button {
+    padding: 10px;
 }
