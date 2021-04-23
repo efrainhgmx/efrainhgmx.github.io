@@ -63,6 +63,16 @@ strong {
     color: var(--blue);
 }
 
+svg {
+    color: var(--font-color);
+}
+
+svg:hover,
+svg:focus {
+    cursor: pointer;
+    color: var(--blue);
+}
+
 .button {
     color: var(--blue);
     text-decoration: none;
@@ -156,6 +166,22 @@ li::before {
     height: auto;
     aspect-ratio: 16/9;
 }
+
+.project-source {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-source p {
+    margin: 0;
+}
+
+.project-source svg{
+    width: 25px;
+}
+
 .button-container {
     text-align: center;
     margin-top: 40px;
@@ -185,15 +211,8 @@ footer {
 }
 
 .social-media svg {
-    color: var(--font-color);
     width: 18px;
     margin-inline: 15px;
-}
-
-.social-media svg:hover,
-.social-media svg:focus {
-    color: var(--blue);
-    cursor: pointer;
 }
 
 footer p {
