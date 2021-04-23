@@ -176,3 +176,11 @@ li::before {
     border-bottom: 1px solid var(--blue);
     padding-bottom: 5px;
 }
+
+/* Footer section */
+footer {
+    margin-top: 120px;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
