@@ -151,7 +151,7 @@ li::before {
     margin-bottom: 40px;
 }
 
-.project-video--container iframe {
+.project-video--container video {
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
