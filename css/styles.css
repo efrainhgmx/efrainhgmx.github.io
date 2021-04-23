@@ -105,3 +105,29 @@ strong {
 .hero-content {
     margin-bottom: 50px;
 }
+
+/* About me Section */
+.stack-title {
+    color: white;
+}
+.about-me--stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.stack-list {
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+li::before {
+    content: "▹";
+    color: var(--blue);
+    line-height: 2rem;
+}
+
+.profile-picture {
+    width: 160px;
+    margin: 20px auto;
+}
