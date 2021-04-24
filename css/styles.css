@@ -89,7 +89,8 @@ svg:focus {
     transition: .6s;
 }
 
-.wrapper {
+.wrapper,
+.u-wrapper {
     max-width: 1350px;
     margin: 0 auto;
     padding: 0 25px;

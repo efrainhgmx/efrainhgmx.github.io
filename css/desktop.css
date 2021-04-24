@@ -1,0 +1,39 @@
+.menu {
+    display: none;
+}
+
+/* Header Section */
+
+.header-logo {
+    width: 20%;
+}
+
+.sub-menu {
+    width: 60%;
+}
+
+.sub-menu ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.sub-menu li::before {
+    content: " ";
+}
+
+li a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+li a.menu-item:hover,
+li a.menu-item:focus {
+    color: white;
+}
+
+#resume-button {
+    padding: 8px;
+}
