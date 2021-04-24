@@ -37,3 +37,9 @@ li a.menu-item:focus {
 #resume-button {
     padding: 8px;
 }
+
+/* Main Content Section */
+
+.wrapper {
+    width: 70%;
+}
