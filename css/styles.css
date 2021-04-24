@@ -253,6 +253,14 @@ footer p {
         font-size: 1.8rem;
     }
 
+    .header-logo {
+        width: 50px;
+    }
+
+    .menu {
+        width: 35px;
+    }
+
     .button {
         font-size: 1.8rem;
     }
@@ -265,7 +273,7 @@ footer p {
     .profile-picture {
         width: 275px;
     }
-    
+
     .stack-list,
     footer p {
         font-size: 1.5rem;
