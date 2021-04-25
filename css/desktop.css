@@ -49,3 +49,27 @@ li a.menu-item:focus {
     max-width: 1220px;
     padding-left: 10%;
 }
+
+/* About me Section */
+.about-me  {
+    display: flex;
+}
+
+.about-me--content {
+    width: 70%;
+}
+
+.profile-picture {
+    width: 400px;
+    margin-left: 45px;
+    margin-top: 75px;
+}
+
+.profile-picture img {
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+}
+
+section {
+    margin-bottom: 180px;
+}
