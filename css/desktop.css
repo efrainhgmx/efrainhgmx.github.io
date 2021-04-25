@@ -39,7 +39,13 @@ li a.menu-item:focus {
 }
 
 /* Main Content Section */
-
 .wrapper {
     width: 70%;
+}
+
+.main-content {
+    margin-bottom: 75px;
+    width: 70%;
+    max-width: 1220px;
+    padding-left: 10%;
 }

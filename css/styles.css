@@ -113,6 +113,10 @@ svg:focus {
 }
 
 /* Main Content */
+.main-content {
+    margin-bottom: 75px;
+}
+
 .hero-content {
     margin-bottom: 50px;
 }
