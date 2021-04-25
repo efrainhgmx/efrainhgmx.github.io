@@ -36,6 +36,7 @@ li a.menu-item:focus {
 
 #resume-button {
     padding: 8px;
+    font-size: 1.2rem;
 }
 
 /* Main Content Section */
@@ -72,4 +73,34 @@ li a.menu-item:focus {
 
 section {
     margin-bottom: 180px;
+}
+
+/* Project section */
+.project-content {
+    display: flex;
+    align-items: center;
+}
+
+.project-content:nth-last-of-type(2n + 2) {
+    background-image: url(../assets/img/base-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project-source {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.project-source a {
+    margin-inline: 20px;
+}
+
+.color-icon:hover {
+    color: #0c1633;
+}
+
+.project-description {
+    margin-right: 45px;
 }
