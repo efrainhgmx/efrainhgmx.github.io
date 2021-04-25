@@ -76,6 +76,9 @@ section {
 }
 
 /* Project section */
+.section-title:first-of-type::after {
+    margin-left: 35px;
+}
 .project-content {
     display: flex;
     align-items: center;
