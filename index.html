@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -41,7 +42,7 @@
     </header>
     <main>
         <div class="u-wrapper">
-            <div class="main-content">
+            <div data-aos="fade-up" class="main-content">
                 <div class="hero-content">
                     <p id="wave">Hola a todos! Soy</p>
                     <h1>Efraín Hernández.</h1>
@@ -53,7 +54,7 @@
             </div>
 
             <div class="wrapper">
-                <section class="about-me" id="about-me">
+                <section data-aos="fade-up" class="about-me" id="about-me">
                     <div class="about-me--content">
                         <h2 class="section-title">Acerca de mi</h2>
                         <p>Hola! soy Efraín Hernández, Ingeniero de profesión y un apasionado de las tecnologías web.
@@ -92,8 +93,8 @@
                 </section>
 
                 <section class="projects-section" id="projects">
-                    <h2 class="section-title">Portafolio</h2>
-                    <div class="project-content">
+                    <h2 data-aos="fade-up" class="section-title">Portafolio</h2>
+                    <div data-aos="fade-up" class="project-content">
                         <div class="project-description">
                         <h3>FASTER</h3>
                         <p>Landing Page para Faster. Administra todas tus transacciones rápidas en un solo panel. Rastree envíos, maneje devoluciones y reordene artículos, todo con un solo click.</p>
@@ -122,7 +123,7 @@
                         </div>
                     </div>
 
-                    <div class="project-content">
+                    <div data-aos="fade-up" class="project-content">
                         <div class="project-description">
                             <h3>Corona App</h3>
                             <p>Landing Page para Faster. Administra todas tus transacciones rápidas en un solo panel. Rastree envíos, maneje devoluciones y reordene artículos, todo con un solo click.</p>
@@ -151,7 +152,7 @@
                         </div>
                     </div>
 
-                    <div class="project-content">
+                    <div data-aos="fade-up" class="project-content">
                       <div class="project-description">
                         <h3>Portasolio de Elisa, una diseñadora web</h3>
                         <p>Portafolio de Elisa, una diseñadora web muy creativa y excelente haciendo proyectos enfocados a la experiencia del usuario!</p>
@@ -186,7 +187,7 @@
                     </div>
                 </section>
 
-                <section class="contact-section" id="contact">
+                <section data-aos="fade-up" class="contact-section" id="contact">
                     <h2 class="contact-title">Contacto</h2>
                     <p><strong>Me encantaría colaborar en más proyecto y trabajar contigo.</strong></p>
                     <p>Actualmente estoy buscando nuevas oportunidades, mi bandeja de entrada siempre está abierta. Ya sea que tenga una pregunta o simplemente quiera saludar, ¡haré todo lo posible para responderle!</p>
@@ -216,5 +217,12 @@
         <p>Efraín Hernández &lt; Frontend Developer /&gt; 🚀 2021 &COPY; </p>
     </footer>
     <script src="./src/menu.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+          duration: 1000
+      });
+    </script>
 </body>
 </html>
