@@ -47,6 +47,7 @@ li a.menu-item:focus {
 .main-content {
     margin-bottom: 75px;
     width: 70%;
+    height: 70vh;
     max-width: 1220px;
     padding-left: 10%;
 }
@@ -79,6 +80,7 @@ section {
 .section-title:first-of-type::after {
     margin-left: 35px;
 }
+
 .project-content {
     display: flex;
     align-items: center;
