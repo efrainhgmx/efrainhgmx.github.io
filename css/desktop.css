@@ -31,22 +31,6 @@ p {
     justify-content: space-between;
 }
 
-/* li a {
-    font-size: 1.4rem;
-    text-decoration: none;
-    color: var(--font-color);
-}
-
-li a.menu-item:hover,
-li a.menu-item:focus {
-    color: white;
-}
-
-#resume-button {
-    padding: 8px;
-    font-size: 1.2rem;
-} */
-
 /* Main Content Section */
 .wrapper {
     width: 70%;
