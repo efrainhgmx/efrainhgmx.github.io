@@ -112,6 +112,30 @@ svg:focus {
     width: 28px;
 }
 
+li a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+li a.menu-item:hover,
+li a.menu-item:focus {
+    color: white;
+}
+
+#resume-button {
+    padding: 8px;
+    font-size: 1.2rem;
+}
+
+.sub-menu ul {
+    list-style: none;
+}
+
+.sub-menu li::before {
+    content: " ";
+}
+
 /* Main Content */
 .main-content {
     margin-bottom: 75px;
@@ -292,6 +316,25 @@ footer p {
 @media (max-width: 768px) {
     .sub-menu {
         position: absolute;
-        left: -100vw;
+        width: 50vw;
+        height: 100vh;
+        z-index: 1;
+        top: 0;
+        right: -50vw;
+        background-color: #0a1f9a;
+        transition: .6s;
+    }
+
+    .is-active {
+        right: 0;
+    }
+    
+    .sub-menu ul {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
     }
 }

@@ -20,22 +20,18 @@ p {
     width: 20%;
 }
 
-.sub-menu {
+ .sub-menu {
     width: 60%;
 }
 
 .sub-menu ul {
     width: 90%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    list-style: none;
 }
 
-.sub-menu li::before {
-    content: " ";
-}
-
-li a {
+/* li a {
     font-size: 1.4rem;
     text-decoration: none;
     color: var(--font-color);
@@ -49,7 +45,7 @@ li a.menu-item:focus {
 #resume-button {
     padding: 8px;
     font-size: 1.2rem;
-}
+} */
 
 /* Main Content Section */
 .wrapper {
