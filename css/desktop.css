@@ -121,6 +121,11 @@ section {
     justify-content: space-between;
 }
 
+.social-media svg:hover {
+    transform: translateY(-3px);
+    transition: .2s;
+}
+
 .social-media::after {
     content: " ";
     width: 1px;
