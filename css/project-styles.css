@@ -71,3 +71,40 @@ header {
 }
 
 /* Main section */
+
+.projects-section {
+    width: 90%;
+    max-width: 1250px;
+    margin: 20px auto;
+}
+
+.card-project {
+    width: 33.33%;
+    padding: 25px;
+    background-color: #1e3475; 
+    border-radius: 10px;
+}
+
+.source-projects {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+a p {
+    margin: 0;
+}
+
+a p:hover {
+    text-decoration: underline;
+}
+
+svg {
+    width: 25px;
+    color: var(--font-color);
+}
+
+svg:hover {
+    color: white;
+}
