@@ -25,6 +25,10 @@ p {
     color: var(--font-color);
 }
 
+a {
+    text-decoration: none;
+}
+
 figure {
     margin: 0;
 }
@@ -39,6 +43,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-inline: 20px;
+    padding-top: 25px;
 }
 
 .header-logo {
@@ -81,13 +86,22 @@ header {
     gap: 35px;
 }
 
+.projects-section img {
+    height: 267px;
+    object-fit: unset;
+}
+
 .card-project {
     padding: 25px;
     background-color: #1e3475; 
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .source-projects {
+    margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -109,4 +123,8 @@ svg {
 
 svg:hover {
     color: white;
+}
+
+footer {
+    text-align: center;
 }
