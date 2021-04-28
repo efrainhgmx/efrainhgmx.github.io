@@ -15,7 +15,59 @@ body {
     background-color: var(--bg-color);
 }
 
+h2 {
+    color: white;
+    font-size: 2rem;
+}
+
 p {
     font-size: 1.6rem;
     color: var(--font-color);
 }
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.header-logo {
+    width: 20%;
+}
+
+.header-buttons {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact {
+    border: 2px solid var(--font-color);
+    color: var(--font-color);
+}
+
+#resume {
+    border: 2px solid var(--blue);
+    color: var(--blue);
+}
+
+#contact,
+#resume {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+/* Main section */
