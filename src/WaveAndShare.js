@@ -1,6 +1,6 @@
 const hour = new Date().getHours();
 const text = document.getElementById('wave');
-const shareButton = getElementById('share');
+const shareButton = document.getElementById('share');
 let wave;
 
 const choosingWave = () => {
@@ -16,12 +16,12 @@ const choosingWave = () => {
 }
 choosingWave();
 
-shareButton.addEventLister('click', () => {
+shareButton.addEventListener('click', () => {
     navigator.share({
         title: 'Efraín Hernandez',
-        text: 'Conoce sobre mi',
+        text: 'Software Engineer, Frontend Developer expert in web technologies.',
         url: 'https://efrainhgmx.com'
     })
-    .then(() => console.log('Todo ok'))
+    .then(() => console.log('Hemos compartido con exito el sitio web'))
     .catch(() => console.log('Error al compartir'));
 });
