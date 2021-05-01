@@ -269,7 +269,7 @@ footer p {
 
 @media (min-width: 768px) {
     #wave {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     h1,
@@ -320,7 +320,7 @@ footer p {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .sub-menu {
         position: fixed;
         width: 50vw;
