@@ -148,3 +148,40 @@ footer {
     margin-top: 25px;
     text-align: center;
 }
+
+@media (max-width: 425px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    #contact, 
+    #resume {
+        font-size: 1rem;
+    }
+
+    .card-project {
+        max-height: 90vh;
+    }
+
+    
+.projects-section img {
+    height: 160px;
+    object-fit: cover;
+}
+}
+
+@media (min-width: 768px) {
+    .header-logo {
+        width: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-logo {
+        width: 20%;
+    }
+}
