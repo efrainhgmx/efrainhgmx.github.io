@@ -92,13 +92,14 @@ header {
 }
 
 .projects-section img {
-    height: 250px;
+    height: 230px;
     object-fit: unset;
 }
 
 .card-project {
     padding: 15px;
-    background-color: #1e3475; 
+    /* background-color: #1e3475;  */
+    background: linear-gradient(181deg, #08226b, #18182d);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
