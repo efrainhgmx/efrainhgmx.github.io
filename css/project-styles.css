@@ -50,21 +50,24 @@ header {
     width: 20%;
 }
 
-.header-buttons {
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 #contact {
     border: 2px solid var(--font-color);
     color: var(--font-color);
 }
 
+#contact:hover {
+    background-color: rgba(93, 123, 144, 0.3);
+    transition: .6s;
+}
+
 #resume {
     border: 2px solid var(--blue);
     color: var(--blue);
+}
+
+#resume:hover {
+    background-color: rgba(44, 148, 216, .3);
+    transition: .6s;
 }
 
 #contact,
@@ -73,6 +76,7 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
     padding: 10px;
+    margin-inline-end: 10px;
 }
 
 /* Main section */
