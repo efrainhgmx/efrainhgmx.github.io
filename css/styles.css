@@ -119,7 +119,7 @@ svg:focus,
 }
 
 li a {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-decoration: none;
     color: var(--font-color);
 }
@@ -131,7 +131,7 @@ li a.menu-item:focus {
 
 #resume-button {
     padding: 8px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .sub-menu ul {
@@ -140,6 +140,10 @@ li a.menu-item:focus {
 
 .sub-menu li::before {
     content: " ";
+}
+
+.sub-menu li {
+    line-height: 1.3;
 }
 
 /* Main Content */
@@ -341,9 +345,9 @@ footer p {
     
     .sub-menu ul {
         display: flex;
-        height: 100vh;
+        height: 50vh;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         padding: 0;
     }
@@ -352,12 +356,18 @@ footer p {
 
     .close-menu {
         display: inline-block;
-        width: 25px;
-        height: 25px;
-        background-image: url(../assets/icons/cancel.svg);
-        background-repeat: no-repeat;
-        margin-left: 40vw;
-        margin-top: 10px;
+        width: 28px;
+        height: 28px;
+        margin: 10px 0 10px 40vw;
+    }
+
+    .close-menu svg {
+        fill: currentColor;
+        color: var(--blue);
+    }
+
+    .close-menu svg:hover {
+        color: #7c9de8;
     }
 
     .close-menu:hover {
