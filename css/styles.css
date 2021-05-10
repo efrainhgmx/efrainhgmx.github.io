@@ -408,11 +408,11 @@ footer p {
 
     .sub-menu {
         position: fixed;
-        width: 50vw;
+        width: 70vw;
         height: 100vh;
         z-index: 1;
         top: 0;
-        right: -50vw;
+        right: -70vw;
         background-color: #03115f;
         transition: .6s;
     }
