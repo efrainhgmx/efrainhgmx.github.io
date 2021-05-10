@@ -385,20 +385,21 @@ footer p {
         background: #72b9e7;
     }
 
-   .menu input:checked ~ span {
+    .first-line {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);
         background: var(--blue);
     }
 
-    .menu input:checked ~ span:nth-last-child(3) {
+    .second-line {
         opacity: 0;
         transform:  rotate(0deg) scale(0.2, 0.2);
+        background: var(--blue);
     }
 
-    .menu input:checked ~ span:nth-last-child(2) {
+    .third-line {
         transform: rotate(-45deg) translate(0, -1px);
-    } 
+    }
 
     .sub-menu {
         position: fixed;
