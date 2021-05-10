@@ -18,21 +18,12 @@ const menuActive = () => {
 }
 
 const hideShow = () => {
-    if(menu.classList.contains('is-active') && body.classList.contains('no-scrooll') && menuIcon.getAttribute("style") === "position: fixed; top: 33px; right: 30px;" && firstLine.classList.contains('first-line') && secondLine.classList.contains('first-line', 'second-line') && thirdLine.classList.contains('first-line', 'third-line')) {
-        menu.classList.remove('is-active');
-        body.classList.remove('no-scrooll');
-        firstLine.classList.remove('first-line');
-        secondLine.classList.remove('first-line', 'second-line');
-        thirdLine.classList.remove('first-line', 'third-line');
-        menuIcon.setAttribute("style", "position: relative");
-    } else {
-        menu.classList.add('is-active');
-        body.classList.add('no-scrooll');
-        firstLine.classList.add('first-line');
-        secondLine.classList.add('first-line', 'second-line');
-        thirdLine.classList.add('first-line', 'third-line');
-        menuIcon.setAttribute("style", "position: fixed; top: 33px; right: 30px;");
-    }
+    menu.classList.contains('is-active') ? menu.classList.remove('is-active') : menu.classList.add('is-active');
+    body.classList.contains('no-scrooll') ? body.classList.remove('no-scrooll') : body.classList.add('no-scrooll');
+    firstLine.classList.contains('first-line') ? firstLine.classList.remove('first-line') : firstLine.classList.add('first-line');
+    secondLine.classList.contains('first-line', 'second-line') ? secondLine.classList.remove('first-line', 'second-line') : secondLine.classList.add('first-line', 'second-line');
+    thirdLine.classList.contains('first-line', 'third-line') ? thirdLine.classList.remove('first-line', 'third-line') : thirdLine.classList.add('first-line', 'third-line');
+    menuIcon.getAttribute("style") === "position: fixed; top: 33px; right: 30px;" ? menuIcon.setAttribute("style", "position: relative") : menuIcon.setAttribute("style", "position: fixed; top: 33px; right: 30px;");
 }
 
 menuActive();
