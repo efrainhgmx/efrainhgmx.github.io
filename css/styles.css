@@ -339,6 +339,11 @@ footer p {
 }
 
 @media (max-width: 1023px) {
+
+    #resume-menu {
+        display: none;
+    }
+
     .menu {
         display: flex;
         flex-direction: column;

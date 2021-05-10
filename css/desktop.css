@@ -21,7 +21,7 @@ p {
 }
 
  .sub-menu {
-    width: 60%;
+    width: 50%;
 }
 
 .sub-menu ul {
@@ -29,6 +29,32 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#resume-button {
+    display: none;
+}
+
+#resume-menu {
+    padding: 10px 20px 10px 10px;
+    font-size: 1.6rem;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    margin-right: 100px;
+}
+
+#resume-menu summary:hover {
+    cursor: pointer;
+}
+
+#resume-menu a {
+    color: var(--font-color);
+    text-decoration: none;
+    display: block;
+}
+
+#resume-menu a:hover {
+    color: white;
 }
 
 /* Main Content Section */
