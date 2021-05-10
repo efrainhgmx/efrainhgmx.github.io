@@ -40,7 +40,7 @@ p {
     font-size: 1.6rem;
     color: var(--blue);
     border: 2px solid var(--blue);
-    margin-right: 100px;
+    margin-right: 70px;
 }
 
 #resume-menu summary:hover {
