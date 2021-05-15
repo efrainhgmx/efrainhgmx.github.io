@@ -23,7 +23,7 @@ const hideShow = () => {
     firstLine.classList.contains('first-line') ? firstLine.classList.remove('first-line') : firstLine.classList.add('first-line');
     secondLine.classList.contains('first-line', 'second-line') ? secondLine.classList.remove('first-line', 'second-line') : secondLine.classList.add('first-line', 'second-line');
     thirdLine.classList.contains('first-line', 'third-line') ? thirdLine.classList.remove('first-line', 'third-line') : thirdLine.classList.add('first-line', 'third-line');
-    menuIcon.getAttribute("style") === "position: fixed; top: 33px; right: 30px;" ? menuIcon.setAttribute("style", "position: relative") : menuIcon.setAttribute("style", "position: fixed; top: 33px; right: 30px;");
+    menuIcon.getAttribute("style") === "position: fixed; top: 38px; right: 30px;" ? menuIcon.setAttribute("style", "position: relative") : menuIcon.setAttribute("style", "position: fixed; top: 38px; right: 30px;");
 }
 
 menuActive();
