@@ -108,6 +108,10 @@ svg:focus,
     padding: 0 25px;
 }
 
+section {
+    margin-bottom: 70px;
+}
+
 /* Header Content */
 .header-content {
     min-height: 20vh;
