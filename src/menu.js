@@ -19,7 +19,7 @@ const menuActive = () => {
 
 const hideShow = () => {
     menu.classList.contains('is-active') ? menu.classList.remove('is-active') : menu.classList.add('is-active');
-    body.classList.contains('no-scrooll') ? body.classList.remove('no-scrooll') : body.classList.add('no-scrooll');
+    //body.classList.contains('no-scrooll') ? body.classList.remove('no-scrooll') : body.classList.add('no-scrooll');
     firstLine.classList.contains('first-line') ? firstLine.classList.remove('first-line') : firstLine.classList.add('first-line');
     secondLine.classList.contains('first-line', 'second-line') ? secondLine.classList.remove('first-line', 'second-line') : secondLine.classList.add('first-line', 'second-line');
     thirdLine.classList.contains('first-line', 'third-line') ? thirdLine.classList.remove('first-line', 'third-line') : thirdLine.classList.add('first-line', 'third-line');
