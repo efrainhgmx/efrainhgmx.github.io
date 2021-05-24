@@ -157,6 +157,10 @@ section {
     margin: 0 auto;
 }
 
+#first-video {
+    width: 360px;
+}
+
 @media (min-width: 1024px) {
     .close-menu {
         display: none;
