@@ -143,7 +143,14 @@ svg:hover {
     padding: 10px 20px;
     border-radius: 5px;
 }
-.count-pages a:last-child::after {
+
+#previous-button::before {
+    content: "❮";
+    color: white;
+    margin-right: 10px;
+}
+
+#next-button:after {
     content: "❯";
     color: white;
     margin-left: 10px;
