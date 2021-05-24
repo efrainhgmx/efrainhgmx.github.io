@@ -144,10 +144,6 @@ svg:hover {
     border-radius: 5px;
 }
 
-.count-pages a:first-child {
-    background-color: var(--blue);
-}
-
 footer {
     margin-top: 25px;
     text-align: center;
