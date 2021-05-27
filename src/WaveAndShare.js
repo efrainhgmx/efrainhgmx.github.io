@@ -18,8 +18,8 @@ choosingWave();
 
 shareButton.addEventListener('click', () => {
     navigator.share({
-        title: 'Efraín Hernandez',
-        text: 'Software Engineer, Frontend Developer expert in web technologies.',
+        title: 'Efraín Hernández',
+        text: 'Software Engineer, Frontend Developer apasionado de las tecnologías web.',
         url: 'https://efrainhgmx.com'
     })
     .then(() => console.log('Hemos compartido con exito el sitio web'))
