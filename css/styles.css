@@ -68,6 +68,11 @@ img {
 strong {
     color: var(--blue);
 }
+
+strong a {
+    text-decoration: none;
+}
+
 #share svg {
     fill: currentColor;
 }
